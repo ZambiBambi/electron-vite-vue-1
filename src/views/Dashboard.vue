@@ -1,24 +1,22 @@
 <template>
-  <div>
-    <div v-for="expense in expenses" :key="expense.id">
-      <p>{{ expense.id }}</p>
-      <p>{{ expense.amount }}</p>
-      <p>{{ expense.description }}</p>
-    </div>
-  </div>
-  <Button @click="addNewExpense">Add new expense</Button>
-  <Button @click="refreshExpenses">Get expenses</Button>
+  <Navbar title="Dashboard"></Navbar>
+
+  <div
+    class="flex p-4 flex-col w-full h-full bg-surface-0 dark:bg-surface-900 rounded-xl shadow overflow-y-auto"
+  ></div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
 
-import { getExpenses, addExpense } from "@/renderer/database";
+import { GetExpenses, AddExpense } from "@/renderer/database";
 
 import Button from "primevue/button";
 
+import Navbar from "@/components/Navbar.vue";
+
 onMounted(async () => {
-  expenses.value = await getExpenses();
+  expenses.value = await GetExpenses();
 
   console.log("Expenses", expenses.value);
 });
@@ -26,17 +24,17 @@ onMounted(async () => {
 const expenses = ref();
 
 const addNewExpense = async () => {
-  await addExpense({
+  await AddExpense({
     amount: 100,
     title: "Test",
   });
 
-  expenses.value = await getExpenses();
+  refreshExpenses();
 };
 
 const refreshExpenses = async () => {
-  expenses.value = await getExpenses();
+  expenses.value = await GetExpenses();
 
-  console.log("Expenses", await getExpenses());
+  console.log("Expenses", await GetExpenses());
 };
 </script>

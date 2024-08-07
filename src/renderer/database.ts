@@ -1,11 +1,11 @@
-async function getExpenses() {
+async function GetExpenses() {
   return await window.ipcRenderer.invoke("getExpenses").then((expenses) => {
     console.log(expenses);
     return expenses;
   });
 }
 
-async function addExpense(expense: any) {
+async function AddExpense(expense: any) {
   return await window.ipcRenderer
     .invoke("addExpense", expense)
     .then((expense) => {
@@ -14,4 +14,4 @@ async function addExpense(expense: any) {
     });
 }
 
-export { getExpenses, addExpense };
+export { GetExpenses, AddExpense };
