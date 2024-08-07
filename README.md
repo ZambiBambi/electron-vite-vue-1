@@ -1,1 +1,1 @@
-# personal-budgeting
+# electron-vite-vue-sqlite
