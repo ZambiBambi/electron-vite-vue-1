@@ -1,0 +1,801 @@
+[{
+    "expenseId": 1,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 25.42,
+    "date": "31-01-2024",
+    "description": "Office supplies",
+    "isRecurring": true
+  }, {
+    "expenseId": 2,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 95.78,
+    "date": "10-11-2023",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 3,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 78.97,
+    "date": "03-12-2023",
+    "description": "Utilities",
+    "isRecurring": true
+  }, {
+    "expenseId": 4,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 27.17,
+    "date": "08-04-2024",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 5,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 87.93,
+    "date": "13-09-2023",
+    "description": "Utilities",
+    "isRecurring": true
+  }, {
+    "expenseId": 6,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 48.89,
+    "date": "16-03-2024",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 7,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 67.65,
+    "date": "24-08-2023",
+    "description": "Marketing campaign",
+    "isRecurring": true
+  }, {
+    "expenseId": 8,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 88.55,
+    "date": "24-07-2024",
+    "description": "Consulting fees",
+    "isRecurring": true
+  }, {
+    "expenseId": 9,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 54.9,
+    "date": "17-02-2024",
+    "description": "Utilities",
+    "isRecurring": false
+  }, {
+    "expenseId": 10,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 72.17,
+    "date": "05-04-2024",
+    "description": "Office supplies",
+    "isRecurring": false
+  }, {
+    "expenseId": 11,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 67.98,
+    "date": "31-03-2024",
+    "description": "Utilities",
+    "isRecurring": true
+  }, {
+    "expenseId": 12,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 38.68,
+    "date": "04-04-2024",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 13,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 86.26,
+    "date": "01-02-2024",
+    "description": "Travel expenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 14,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 35.12,
+    "date": "07-01-2024",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 15,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 42.64,
+    "date": "28-01-2024",
+    "description": "Equipment maintenance",
+    "isRecurring": true
+  }, {
+    "expenseId": 16,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 76.16,
+    "date": "27-08-2023",
+    "description": "Equipment maintenance",
+    "isRecurring": false
+  }, {
+    "expenseId": 17,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 57.93,
+    "date": "30-09-2023",
+    "description": "Travel expenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 18,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 42.66,
+    "date": "05-05-2024",
+    "description": "Consulting fees",
+    "isRecurring": false
+  }, {
+    "expenseId": 19,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 29.13,
+    "date": "28-01-2024",
+    "description": "Office supplies",
+    "isRecurring": true
+  }, {
+    "expenseId": 20,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 22.52,
+    "date": "18-04-2024",
+    "description": "Client entertainment",
+    "isRecurring": true
+  }, {
+    "expenseId": 21,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 99.48,
+    "date": "13-09-2023",
+    "description": "Office supplies",
+    "isRecurring": false
+  }, {
+    "expenseId": 22,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 50.81,
+    "date": "20-04-2024",
+    "description": "Equipment maintenance",
+    "isRecurring": true
+  }, {
+    "expenseId": 23,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 73.91,
+    "date": "30-09-2023",
+    "description": "Client entertainment",
+    "isRecurring": false
+  }, {
+    "expenseId": 24,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 78.79,
+    "date": "28-07-2024",
+    "description": "Marketing campaign",
+    "isRecurring": true
+  }, {
+    "expenseId": 25,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 98.77,
+    "date": "28-08-2023",
+    "description": "Client entertainment",
+    "isRecurring": true
+  }, {
+    "expenseId": 26,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 95.16,
+    "date": "19-08-2023",
+    "description": "Office supplies",
+    "isRecurring": true
+  }, {
+    "expenseId": 27,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 52.97,
+    "date": "20-03-2024",
+    "description": "Marketing campaign",
+    "isRecurring": false
+  }, {
+    "expenseId": 28,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 97.37,
+    "date": "09-09-2023",
+    "description": "Client entertainment",
+    "isRecurring": false
+  }, {
+    "expenseId": 29,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 21.28,
+    "date": "09-01-2024",
+    "description": "Marketing campaign",
+    "isRecurring": false
+  }, {
+    "expenseId": 30,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 37.59,
+    "date": "13-07-2024",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 31,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 32.2,
+    "date": "16-09-2023",
+    "description": "Client entertainment",
+    "isRecurring": true
+  }, {
+    "expenseId": 32,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 1.67,
+    "date": "09-10-2023",
+    "description": "Software licenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 33,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 34.19,
+    "date": "23-02-2024",
+    "description": "Consulting fees",
+    "isRecurring": false
+  }, {
+    "expenseId": 34,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 55.56,
+    "date": "16-02-2024",
+    "description": "Utilities",
+    "isRecurring": false
+  }, {
+    "expenseId": 35,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 66.19,
+    "date": "05-09-2023",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 36,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 10.69,
+    "date": "29-11-2023",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 37,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 46.8,
+    "date": "18-10-2023",
+    "description": "Travel expenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 38,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 91.94,
+    "date": "13-11-2023",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 39,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 16.85,
+    "date": "17-08-2023",
+    "description": "Utilities",
+    "isRecurring": true
+  }, {
+    "expenseId": 40,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 79.99,
+    "date": "13-06-2024",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 41,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 36.57,
+    "date": "05-07-2024",
+    "description": "Software licenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 42,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 53.17,
+    "date": "28-08-2023",
+    "description": "Equipment maintenance",
+    "isRecurring": false
+  }, {
+    "expenseId": 43,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 10.63,
+    "date": "30-09-2023",
+    "description": "Travel expenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 44,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 43.33,
+    "date": "24-01-2024",
+    "description": "Training materials",
+    "isRecurring": false
+  }, {
+    "expenseId": 45,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 4.2,
+    "date": "16-06-2024",
+    "description": "Training materials",
+    "isRecurring": true
+  }, {
+    "expenseId": 46,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 9.9,
+    "date": "18-01-2024",
+    "description": "Office supplies",
+    "isRecurring": false
+  }, {
+    "expenseId": 47,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 18.66,
+    "date": "20-08-2023",
+    "description": "Marketing campaign",
+    "isRecurring": false
+  }, {
+    "expenseId": 48,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 46.4,
+    "date": "09-03-2024",
+    "description": "Travel expenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 49,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 57.65,
+    "date": "18-01-2024",
+    "description": "Marketing campaign",
+    "isRecurring": false
+  }, {
+    "expenseId": 50,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 36.85,
+    "date": "10-12-2023",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 51,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 85.2,
+    "date": "27-09-2023",
+    "description": "Office supplies",
+    "isRecurring": true
+  }, {
+    "expenseId": 52,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 24.54,
+    "date": "07-04-2024",
+    "description": "Training materials",
+    "isRecurring": true
+  }, {
+    "expenseId": 53,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 71.57,
+    "date": "03-06-2024",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 54,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 5.65,
+    "date": "17-03-2024",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 55,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 98.85,
+    "date": "11-06-2024",
+    "description": "Equipment maintenance",
+    "isRecurring": false
+  }, {
+    "expenseId": 56,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 97.58,
+    "date": "03-01-2024",
+    "description": "Software licenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 57,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 19.2,
+    "date": "12-08-2023",
+    "description": "Marketing campaign",
+    "isRecurring": false
+  }, {
+    "expenseId": 58,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 85.09,
+    "date": "18-09-2023",
+    "description": "Travel expenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 59,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 99.45,
+    "date": "06-08-2024",
+    "description": "Equipment maintenance",
+    "isRecurring": true
+  }, {
+    "expenseId": 60,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 55.25,
+    "date": "01-07-2024",
+    "description": "Client entertainment",
+    "isRecurring": true
+  }, {
+    "expenseId": 61,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 40.59,
+    "date": "19-09-2023",
+    "description": "Marketing campaign",
+    "isRecurring": true
+  }, {
+    "expenseId": 62,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 93.4,
+    "date": "16-10-2023",
+    "description": "Software licenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 63,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 70.77,
+    "date": "24-09-2023",
+    "description": "Travel expenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 64,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 36.83,
+    "date": "18-11-2023",
+    "description": "Client entertainment",
+    "isRecurring": true
+  }, {
+    "expenseId": 65,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 84.2,
+    "date": "17-09-2023",
+    "description": "Consulting fees",
+    "isRecurring": false
+  }, {
+    "expenseId": 66,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 72.57,
+    "date": "04-10-2023",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 67,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 86.03,
+    "date": "23-06-2024",
+    "description": "Consulting fees",
+    "isRecurring": true
+  }, {
+    "expenseId": 68,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 20.24,
+    "date": "14-04-2024",
+    "description": "Software licenses",
+    "isRecurring": false
+  }, {
+    "expenseId": 69,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 13.13,
+    "date": "17-05-2024",
+    "description": "Client entertainment",
+    "isRecurring": false
+  }, {
+    "expenseId": 70,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 97.35,
+    "date": "07-10-2023",
+    "description": "Utilities",
+    "isRecurring": false
+  }, {
+    "expenseId": 71,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 63.73,
+    "date": "11-10-2023",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 72,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 35.6,
+    "date": "16-12-2023",
+    "description": "Utilities",
+    "isRecurring": false
+  }, {
+    "expenseId": 73,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 83.73,
+    "date": "26-09-2023",
+    "description": "Consulting fees",
+    "isRecurring": true
+  }, {
+    "expenseId": 74,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 81.34,
+    "date": "07-07-2024",
+    "description": "Client entertainment",
+    "isRecurring": false
+  }, {
+    "expenseId": 75,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 40.37,
+    "date": "13-08-2023",
+    "description": "Equipment maintenance",
+    "isRecurring": false
+  }, {
+    "expenseId": 76,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 56.6,
+    "date": "07-10-2023",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 77,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 90.3,
+    "date": "18-01-2024",
+    "description": "Office supplies",
+    "isRecurring": true
+  }, {
+    "expenseId": 78,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 12.67,
+    "date": "03-01-2024",
+    "description": "Equipment maintenance",
+    "isRecurring": true
+  }, {
+    "expenseId": 79,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 99.82,
+    "date": "25-07-2024",
+    "description": "Travel expenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 80,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 39.97,
+    "date": "15-03-2024",
+    "description": "Utilities",
+    "isRecurring": true
+  }, {
+    "expenseId": 81,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 57.87,
+    "date": "18-11-2023",
+    "description": "Client entertainment",
+    "isRecurring": true
+  }, {
+    "expenseId": 82,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 94.67,
+    "date": "01-07-2024",
+    "description": "Client entertainment",
+    "isRecurring": true
+  }, {
+    "expenseId": 83,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 55.82,
+    "date": "30-06-2024",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 84,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 6.43,
+    "date": "25-05-2024",
+    "description": "Employee benefits",
+    "isRecurring": false
+  }, {
+    "expenseId": 85,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 53.71,
+    "date": "16-07-2024",
+    "description": "Utilities",
+    "isRecurring": false
+  }, {
+    "expenseId": 86,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 40.24,
+    "date": "29-08-2023",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 87,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 31.43,
+    "date": "15-12-2023",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 88,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 94.41,
+    "date": "10-06-2024",
+    "description": "Consulting fees",
+    "isRecurring": true
+  }, {
+    "expenseId": 89,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 58.72,
+    "date": "10-01-2024",
+    "description": "Marketing campaign",
+    "isRecurring": true
+  }, {
+    "expenseId": 90,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 98.67,
+    "date": "25-08-2023",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 91,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 43.01,
+    "date": "18-02-2024",
+    "description": "Equipment maintenance",
+    "isRecurring": false
+  }, {
+    "expenseId": 92,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 72.41,
+    "date": "03-06-2024",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 93,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 35.89,
+    "date": "23-04-2024",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 94,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 78.25,
+    "date": "28-11-2023",
+    "description": "Office supplies",
+    "isRecurring": false
+  }, {
+    "expenseId": 95,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 98.64,
+    "date": "16-01-2024",
+    "description": "Utilities",
+    "isRecurring": false
+  }, {
+    "expenseId": 96,
+    "userId": 1,
+    "categoryId": 4,
+    "amount": 75.63,
+    "date": "14-03-2024",
+    "description": "Employee benefits",
+    "isRecurring": true
+  }, {
+    "expenseId": 97,
+    "userId": 1,
+    "categoryId": 3,
+    "amount": 76.17,
+    "date": "05-11-2023",
+    "description": "Software licenses",
+    "isRecurring": true
+  }, {
+    "expenseId": 98,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 8.63,
+    "date": "15-11-2023",
+    "description": "Consulting fees",
+    "isRecurring": false
+  }, {
+    "expenseId": 99,
+    "userId": 1,
+    "categoryId": 1,
+    "amount": 64.07,
+    "date": "26-10-2023",
+    "description": "Training materials",
+    "isRecurring": true
+  }, {
+    "expenseId": 100,
+    "userId": 1,
+    "categoryId": 2,
+    "amount": 48.18,
+    "date": "15-03-2024",
+    "description": "Utilities",
+    "isRecurring": false
+  }]

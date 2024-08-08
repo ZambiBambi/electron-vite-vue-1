@@ -6,7 +6,7 @@ async function server() {
   try {
     ipcMain.handle("getExpenses", async (event, args) => {
       try {
-        return await getExpenses();
+        return await getExpenses(args);
       } catch (error) {
         console.error(error);
       }

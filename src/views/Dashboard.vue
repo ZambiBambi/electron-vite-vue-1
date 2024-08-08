@@ -3,7 +3,9 @@
 
   <div
     class="flex p-4 flex-col w-full h-full bg-surface-0 dark:bg-surface-900 rounded-xl shadow overflow-y-auto"
-  ></div>
+  >
+    {{ totalExpenses }}
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -16,25 +18,25 @@ import Button from "primevue/button";
 import Navbar from "@/components/Navbar.vue";
 
 onMounted(async () => {
-  expenses.value = await GetExpenses();
+  expenses.value = await GetExpenses(null);
 
   console.log("Expenses", expenses.value);
+
+  getTotalExpenses();
 });
 
 const expenses = ref();
+const totalExpenses = ref(0);
 
-const addNewExpense = async () => {
-  await AddExpense({
-    amount: 100,
-    title: "Test",
-  });
-
-  refreshExpenses();
+const getTotalExpenses = () => {
+  totalExpenses.value = expenses.value.reduce(
+    (acc: any, expense: { dataValues: { amount: any } }) =>
+      acc + expense.dataValues.amount,
+    0
+  );
 };
 
 const refreshExpenses = async () => {
-  expenses.value = await GetExpenses();
-
-  console.log("Expenses", await GetExpenses());
+  expenses.value = await GetExpenses(null);
 };
 </script>
